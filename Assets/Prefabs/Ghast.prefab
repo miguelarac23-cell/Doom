@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
   healthBar: {fileID: 1176943890376900718}
-  maxHealth: 100
+  maxHealth: 50
   OnDeath:
     m_PersistentCalls:
       m_Calls:
@@ -241,9 +241,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyFollow
   animator: {fileID: 8497668621841828560}
   damage: 5
-  speed: 4
+  speed: 2
   yPosition: 1
-  pushForce: 5
+  pushForce: 200
 --- !u!1 &3601905999239655885
 GameObject:
   m_ObjectHideFlags: 0
