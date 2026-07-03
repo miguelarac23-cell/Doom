@@ -8,6 +8,7 @@ public class Pool : MonoBehaviour
     [SerializeField]
     private GameObject prefab;
     private GameObject currentObject;
+    public GameObject Prefab { set => prefab = value; }
     public GameObject CurrentObject => currentObject;
     public void InstantiateObject(Vector3 position)
     {
