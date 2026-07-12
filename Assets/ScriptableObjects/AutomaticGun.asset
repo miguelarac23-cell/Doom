@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GunData
   damage: 10
   fireRate: 1
-  totalBullets: 20
+  totalBullets: 10
   reloadTime: 4
   cartridgeSize: 1
   gunType: 1
