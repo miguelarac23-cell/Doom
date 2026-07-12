@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: AutomaticGun
   m_EditorClassIdentifier: Assembly-CSharp::GunData
   damage: 10
-  fireRate: 20
-  totalBullets: 100
-  reloadTime: 2
-  cartridgeSize: 20
-  gunType: 0
+  fireRate: 1
+  totalBullets: 20
+  reloadTime: 4
+  cartridgeSize: 1
+  gunType: 1
   shootSoundName: Videogame Shooter 1
   reloadSoundName: Gun Reload
   dropSoundName: Item Dropped
