@@ -17,9 +17,11 @@ public class Player : MonoBehaviour
    private Health health;
    private Rigidbody rb;
    public float CurrentHealth => health.CurrentHealth;
+   private FirstPersonMovement firstPersonMovement;
    private Gun currentGun;
    private void Awake()
     {
+        firstPersonMovement = GetComponent<FirstPersonMovement>();
         rb = GetComponent<Rigidbody>();
         health = GetComponent<Health>();
     }
