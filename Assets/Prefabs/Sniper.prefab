@@ -214,7 +214,7 @@ GameObject:
   - component: {fileID: 3876084796192201402}
   - component: {fileID: 2383421819982689536}
   m_Layer: 0
-  m_Name: Canvas (1)
+  m_Name: 'Canvas '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -316,7 +316,6 @@ GameObject:
   - component: {fileID: 1642410539805133771}
   - component: {fileID: 642136101307339898}
   - component: {fileID: 682402348965645477}
-  - component: {fileID: 7047396609294805671}
   m_Layer: 0
   m_Name: EnemyLaser
   m_TagString: Untagged
@@ -396,22 +395,6 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &7047396609294805671
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3445513238006231110}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b70d01e6fc94af49b73ba9cc99b7fb2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LaserBeam
-  startPoint: {fileID: 653633692516988737}
-  target: {fileID: 0}
-  laserMesh: {fileID: 1642410539805133771}
-  radius: 0.1
 --- !u!1 &5240778843539625371
 GameObject:
   m_ObjectHideFlags: 0
@@ -721,6 +704,7 @@ GameObject:
   - component: {fileID: 6944734423722471272}
   - component: {fileID: 9195438297688755582}
   - component: {fileID: 7097227988604720264}
+  - component: {fileID: 400892198672747816}
   m_Layer: 0
   m_Name: Sniper
   m_TagString: Enemy
@@ -759,12 +743,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySniper
   animator: {fileID: 4282280113165830757}
-  damage: 20
+  damage: 25
   range: 10
-  fireRate: 3
-  aimTime: 4
+  fireRate: 2
+  aimTime: 2
   timerText: {fileID: 5001599993990471181}
-  laserBeam: {fileID: 7047396609294805671}
+  laserBeam: {fileID: 400892198672747816}
 --- !u!114 &6944734423722471272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -778,7 +762,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
   healthBar: {fileID: 6935869612461172832}
-  maxHealth: 100
+  maxHealth: 200
   OnDeath:
     m_PersistentCalls:
       m_Calls:
@@ -848,6 +832,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &400892198672747816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8767642335647764579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b70d01e6fc94af49b73ba9cc99b7fb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LaserBeam
+  startPoint: {fileID: 653633692516988737}
+  laserMesh: {fileID: 1642410539805133771}
+  radius: 0.03
 --- !u!1001 &3021628823841928943
 PrefabInstance:
   m_ObjectHideFlags: 0
