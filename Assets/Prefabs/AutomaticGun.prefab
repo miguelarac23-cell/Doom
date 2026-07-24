@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8975748315851366162}
-  - component: {fileID: 6617029077056193188}
   - component: {fileID: 7543256618635189477}
   - component: {fileID: 4302810238085782125}
+  - component: {fileID: 4135996282702517572}
   m_Layer: 0
   m_Name: AutomaticGun
   m_TagString: Gun
@@ -36,27 +36,6 @@ Transform:
   - {fileID: 8545482703043251379}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &6617029077056193188
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 621095356149069192}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.34, y: 0.46, z: 2.63}
-  m_Center: {x: 0, y: 0, z: -2.19}
 --- !u!114 &7543256618635189477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88,6 +67,27 @@ MonoBehaviour:
   gunData: {fileID: 11400000, guid: c5883c1d121f4a34da831d02cba4a57d, type: 2}
   bulletPivot: {fileID: 8545482703043251379}
   bulletPrefab: {fileID: 5286358269630252593, guid: 0a366f65bddbcb949b9802aa8a90f9e0, type: 3}
+--- !u!65 &4135996282702517572
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621095356149069192}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.44, y: 0.54, z: 2.79}
+  m_Center: {x: 0, y: 0.24, z: 1.23}
 --- !u!1 &5874010920582605166
 GameObject:
   m_ObjectHideFlags: 0
@@ -113,7 +113,7 @@ Transform:
   m_GameObject: {fileID: 5874010920582605166}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.029999971, y: -0.018000007, z: -0.69150007}
+  m_LocalPosition: {x: -0.006, y: 0.283, z: 2.601}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -141,15 +141,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d7162f4b5900384b8e21cf353896efd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.01
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d7162f4b5900384b8e21cf353896efd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.26
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d7162f4b5900384b8e21cf353896efd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.32
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d7162f4b5900384b8e21cf353896efd, type: 3}
       propertyPath: m_LocalRotation.w
