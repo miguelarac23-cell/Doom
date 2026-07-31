@@ -292,7 +292,7 @@ MonoBehaviour:
   fireRate: 4
   shootPivot: {fileID: 670819164540281136}
   bulletPrefab: {fileID: 5286358269630252593, guid: be70d8b5ff6b78a4f87e4980cab58fa3, type: 3}
-  speed: 3
+  fireParticlesPrefab: {fileID: 2433282508537954060, guid: 3ef3ae421f71c5c4e97fe12dc2fc6312, type: 3}
 --- !u!65 &6535644848938193046
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -371,6 +371,9 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   onDamageTaken:
+    m_PersistentCalls:
+      m_Calls: []
+  onHeal:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &5164785910650141512

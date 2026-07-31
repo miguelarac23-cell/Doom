@@ -67,6 +67,7 @@ MonoBehaviour:
   gunData: {fileID: 11400000, guid: c5883c1d121f4a34da831d02cba4a57d, type: 2}
   bulletPivot: {fileID: 8545482703043251379}
   bulletPrefab: {fileID: 5286358269630252593, guid: 0a366f65bddbcb949b9802aa8a90f9e0, type: 3}
+  fireParticlesPrefab: {fileID: 4021103657954561961, guid: 5c755f9bc5253ea418e919994537dcc7, type: 3}
 --- !u!65 &4135996282702517572
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -82,7 +83,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
