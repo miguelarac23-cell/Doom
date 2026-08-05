@@ -6690,6 +6690,36 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  OnScrollUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1895031679}
+        m_TargetAssemblyTypeName: GunManager, Assembly-CSharp
+        m_MethodName: SwitchUpGun
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnScrollDown:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1895031679}
+        m_TargetAssemblyTypeName: GunManager, Assembly-CSharp
+        m_MethodName: SwitchDownGun
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &868285540
 Transform:
   m_ObjectHideFlags: 0
@@ -7060,6 +7090,83 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 899739933}
   m_CullTransparentMesh: 1
+--- !u!1001 &907630425
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2405895200334688276, guid: 10925b3c09939004086c096f130018f5, type: 3}
+      propertyPath: fireParticlesPrefab
+      value: 
+      objectReference: {fileID: 5880797563127281583, guid: 265d3a5ba69981a4698ceabcedf368b0, type: 3}
+    - target: {fileID: 6542554105668717486, guid: 10925b3c09939004086c096f130018f5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542554105668717486, guid: 10925b3c09939004086c096f130018f5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542554105668717486, guid: 10925b3c09939004086c096f130018f5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542554105668717486, guid: 10925b3c09939004086c096f130018f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.49538
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542554105668717486, guid: 10925b3c09939004086c096f130018f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.729
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542554105668717486, guid: 10925b3c09939004086c096f130018f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542554105668717486, guid: 10925b3c09939004086c096f130018f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542554105668717486, guid: 10925b3c09939004086c096f130018f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542554105668717486, guid: 10925b3c09939004086c096f130018f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542554105668717486, guid: 10925b3c09939004086c096f130018f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542554105668717486, guid: 10925b3c09939004086c096f130018f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542554105668717486, guid: 10925b3c09939004086c096f130018f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542554105668717486, guid: 10925b3c09939004086c096f130018f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542554105668717486, guid: 10925b3c09939004086c096f130018f5, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7641187074116112046, guid: 10925b3c09939004086c096f130018f5, type: 3}
+      propertyPath: m_Name
+      value: SemiAutomaticGun
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 10925b3c09939004086c096f130018f5, type: 3}
 --- !u!1 &917668887
 GameObject:
   m_ObjectHideFlags: 0
@@ -7975,6 +8082,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8972530119402274488, guid: f3f783c4b566d8e4d989c4fdf64e2146, type: 3}
+--- !u!4 &1063992347 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9156180567641816828, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+  m_PrefabInstance: {fileID: 1624475602}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1067252073
 GameObject:
   m_ObjectHideFlags: 0
@@ -13977,6 +14089,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1473596216}
     - target: {fileID: 5324058647999024043, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+      propertyPath: gunManager
+      value: 
+      objectReference: {fileID: 1895031679}
+    - target: {fileID: 5324058647999024043, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       propertyPath: inputManager
       value: 
       objectReference: {fileID: 868285539}
@@ -14054,7 +14170,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4207293392497186, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1895031678}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
 --- !u!114 &1624475603 stripped
@@ -16927,6 +17046,83 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5413749243328576775, guid: dab7494504481af4ba86b11aef662eb7, type: 3}
+--- !u!1 &1895031677
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1895031678}
+  - component: {fileID: 1895031679}
+  m_Layer: 0
+  m_Name: GunManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1895031678
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895031677}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1900486392}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1895031679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895031677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edeb6f1af95337c4bb07fe4d338fc856, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GunManager
+  onGunGrabbed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1450593910}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  onGunDropped:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1450593910}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  gunPosition: {fileID: 1063992347}
+  ammoText: {fileID: 1473596216}
+  inputManager: {fileID: 868285539}
 --- !u!1001 &1897961446
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17019,6 +17215,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5413749243328576775, guid: dab7494504481af4ba86b11aef662eb7, type: 3}
+--- !u!4 &1900486392 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4207293392497186, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+  m_PrefabInstance: {fileID: 1624475602}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1905793385
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19097,3 +19298,4 @@ SceneRoots:
   - {fileID: 1461335246452394057}
   - {fileID: 2029539321}
   - {fileID: 1462179410}
+  - {fileID: 907630425}
