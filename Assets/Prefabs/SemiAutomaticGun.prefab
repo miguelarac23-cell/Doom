@@ -190,7 +190,7 @@ GameObject:
   - component: {fileID: 3244413830407178240}
   - component: {fileID: 7860213980121417167}
   - component: {fileID: 2405895200334688276}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SemiAutomaticGun
   m_TagString: Gun
   m_Icon: {fileID: 0}
@@ -205,10 +205,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7641187074116112046}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.941, y: 0.734, z: 1.186}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6695939720327138987}
   - {fileID: 3724753201852426652}
@@ -266,7 +266,10 @@ MonoBehaviour:
   gunData: {fileID: 11400000, guid: c0e9435161cbefd448d9f81105392212, type: 2}
   bulletPivot: {fileID: 3724753201852426652}
   bulletPrefab: {fileID: 5286358269630252593, guid: 0a366f65bddbcb949b9802aa8a90f9e0, type: 3}
-  fireParticlesPrefab: {fileID: 0}
+  fireParticlesPrefab: {fileID: 5880797563127281583, guid: 265d3a5ba69981a4698ceabcedf368b0, type: 3}
+  aimLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &8656560638253090622
 GameObject:
   m_ObjectHideFlags: 0

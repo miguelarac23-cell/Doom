@@ -281,7 +281,7 @@ GameObject:
   - component: {fileID: 3379284348831103659}
   - component: {fileID: 8299633503252021990}
   - component: {fileID: 2642323431438128437}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sire
   m_TagString: Enemy
   m_Icon: {fileID: 0}

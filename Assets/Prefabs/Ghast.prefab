@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 266928628624611771}
   - component: {fileID: 8497668621841828560}
   - component: {fileID: 7411101128346720468}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ghast
   m_TagString: Enemy
   m_Icon: {fileID: 0}

@@ -369,7 +369,7 @@ GameObject:
   - component: {fileID: 333883798975844308}
   - component: {fileID: 6848164576625952719}
   - component: {fileID: 3210863175308227937}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Alien
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -459,7 +459,7 @@ MonoBehaviour:
   fireRate: 10
   shootPivot: {fileID: 5203373207448029447}
   bulletPrefab: {fileID: 5286358269630252593, guid: be70d8b5ff6b78a4f87e4980cab58fa3, type: 3}
-  speed: 2
+  fireParticlesPrefab: {fileID: 0}
 --- !u!114 &3210863175308227937
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -17,7 +17,7 @@ MonoBehaviour:
   totalBullets: 60
   reloadTime: 2
   cartridgeSize: 20
-  gunType: 1
+  gunType: 0
   shootSoundName: Videogame Shooter 1
   reloadSoundName: Gun Reload
   dropSoundName: Item Dropped
