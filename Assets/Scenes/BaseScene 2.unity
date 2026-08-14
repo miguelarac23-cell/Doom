@@ -6781,7 +6781,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: BackgroundMusic
+          m_StringArgument: Doom2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!4 &618441912
@@ -13191,6 +13191,18 @@ MonoBehaviour:
       - m_Target: {fileID: 2029539320}
         m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
         m_MethodName: CompleteLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1624475604}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: Die
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -19894,6 +19906,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec72980442fddac4d86e75ab24b4d027, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1624475604 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5324058647999024043, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+  m_PrefabInstance: {fileID: 1624475602}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57b6451876528d546872f3c93fac454f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Player
 --- !u!1 &1627339936 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1565378038407832432, guid: 25874af3e97498b4d95621aed318565f, type: 3}

@@ -318,7 +318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
   healthBar: {fileID: 1705093485029699295}
-  maxHealth: 100
+  maxHealth: 50
   OnDeath:
     m_PersistentCalls:
       m_Calls:
@@ -353,8 +353,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWalker
   animator: {fileID: 3584985632774433847}
-  damage: 20
-  speed: 2
+  damage: 25
+  speed: 10
   attackRange: 1.5
   damageRange: 2
   attackTime: 1
