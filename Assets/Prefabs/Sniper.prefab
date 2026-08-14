@@ -743,10 +743,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySniper
   animator: {fileID: 4282280113165830757}
-  damage: 25
-  range: 10
+  damage: 10
+  range: 100
   fireRate: 2
-  aimTime: 2
+  aimTime: 3
   timerText: {fileID: 5001599993990471181}
   laserBeam: {fileID: 400892198672747816}
 --- !u!114 &6944734423722471272
@@ -762,7 +762,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
   healthBar: {fileID: 6935869612461172832}
-  maxHealth: 200
+  maxHealth: 100
   OnDeath:
     m_PersistentCalls:
       m_Calls:

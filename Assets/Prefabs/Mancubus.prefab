@@ -287,7 +287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyTank
   animator: {fileID: 6943568109932580047}
-  damage: 20
+  damage: 30
   range: 10
   fireRate: 4
   shootPivot: {fileID: 670819164540281136}

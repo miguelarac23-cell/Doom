@@ -8,11 +8,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game.unity
     guid: 375c705a324787a47ac042f59d89c23a
   - enabled: 1
-    path: Assets/Scenes/SecondGame.unity
+    path: Assets/Scenes/BaseScene.unity
     guid: f7e1b17eea472dc458cff4d8e483b1b1
+  - enabled: 1
+    path: Assets/Scenes/BaseScene 2.unity
+    guid: c9a6c4bf1cd72dc449dae51b1c060812
+  - enabled: 1
+    path: Assets/Scenes/BaseScene 3.unity
+    guid: 97d0ec5c1d314ec46a010de36c528fe0
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
