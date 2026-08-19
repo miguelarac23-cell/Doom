@@ -209,7 +209,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyWalker
   animator: {fileID: 6596165232106846707}
   damage: 30
-  speed: 10
+  speed: 6
   attackRange: 1.5
   damageRange: 2
   attackTime: 2
